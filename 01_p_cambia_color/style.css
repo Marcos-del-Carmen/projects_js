@@ -1,0 +1,13 @@
+
+.cont-bottons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.cont-colors {
+    display: grid;
+    grid-template-rows: 200px 10px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    font-weight: 700;
+    transition: all .2s;
+}
+
+.btn-primary {
+    color: #fff;
+    background: #036D59;
+}
+
+.btn-primary:hover,
+.btn-primary:checked,
+.btn-primary:active {
+    color: #c7c7c7;
+    background: #005243;
+}
+
+.btn-secundary {
+    color: #333;
+    background-color: #95FFEB;
+}
+
+.btn-secundary:hover,
+.btn-secundary:checked,
+.btn-secundary:active {
+    color: #747474;
+    background-color: #6fb6a9;
+}
+
+.btn-third {
+    color: #fff;
+    background-color: #50d1ba;
+}
+
+.btn-thir:checked,
+.btn-third:hover,
+.btn-third:active {
+    color: #fff;
+    background-color: #50d1ba;
+}
