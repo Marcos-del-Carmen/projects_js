@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn {
@@ -44,4 +45,17 @@
 .btn-third:active {
     color: #fff;
     background-color: #50d1ba;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4em {
+    font-size: 4em; 
+    margin-bottom: 40px;
+ }
+
+.mr-2 {
+    margin-right: 1em;
 }

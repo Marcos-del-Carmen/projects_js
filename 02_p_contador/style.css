@@ -1,0 +1,16 @@
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #333;
+    color: #fff;
+}
+
+.btn {
+    width: 150px;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #333;
+}
