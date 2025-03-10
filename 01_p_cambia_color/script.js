@@ -1,3 +1,5 @@
+const objColor = new Colors();
+
 let cont_colors = document.getElementsByClassName('cont-colors')[0];
 
 let btn_flipper = document.getElementById('btn_flipper')
@@ -26,8 +28,7 @@ function btnGenerado(titulo) {
     btn.classList.add('btn');
     btn.style.cssText = `
         display: block;
-        `;
-        // margin-top: 15px;
+    `;
     return btn;
 }
 
@@ -38,7 +39,7 @@ btn_flipper.addEventListener('click', () => {
     let btn = this.btnGenerado();
 
     btn.addEventListener('click', ()=>{
-        let color = this.colorRamdomSimple();
+        let color = objColor.colorRamdomSimple();
         cont_colors.style.background = color;
         title.innerHTML = `Background Color: ${color}`;
     })
@@ -54,7 +55,7 @@ btn_hex.addEventListener('click', () => {
     let btn = this.btnGenerado();
 
     btn.addEventListener('click', ()=>{
-        let color = this.colorRandomHex();
+        let color = objColor.colorRandomHex();
         cont_colors.style.background = color;
         title.innerHTML = `Background Color: ${color}`;
     })
@@ -65,29 +66,3 @@ btn_hex.addEventListener('click', () => {
 
 
 document.body.appendChild(cont_colors);
-
-function r(array) {
-    return Math.floor(Math.random() * array.length);
-}
-
-function colorRandomHex() {
-    let letras = [1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F'];
-    let hex = '';
-
-    for (let i = 0; i < 6; i++) {
-        let r = this.r(letras)
-        hex = hex + letras[r];
-    }
-    return '#' + hex;
-}
-
-function colorRamdomSimple() {
-    let colores = [
-        "red",      "blue",     "green",    "yellow",   "orange",   "purple",   "pink",
-        "brown",    "black",    "white",    "gray",     "turquoise","cyan",     "magenta",
-        "beige",    "fuchsia",  "lilac",    "wine",     "gold",     "silver"
-    ];    
-    let r = this.r(colores);
-    return colores[r];
-}
-
