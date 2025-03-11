@@ -9,7 +9,6 @@ btn_decrease.addEventListener('click', (e)=> {
     num = parseInt(num_counter.textContent);
     num_counter.textContent = num-1;
     num_counter.style.color = objColor.colorRandomHex();
-    // console.log('objColor.colorRandomHex()', objColor.colorRandomHex())
 })
 
 btn_reset.addEventListener('click', (e)=> {

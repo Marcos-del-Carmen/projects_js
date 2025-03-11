@@ -56,6 +56,42 @@
     margin-bottom: 40px;
  }
 
-.mr-2 {
+.mr-1 {
     margin-right: 1em;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.text-while {
+    color: #fff;
+}
+
+.text-blue {
+    color: rgb(1, 102, 184);
+}
+
+.fz-1 {
+    font-size: 1em;
+}
+
+.fz-1-5 {
+    font-size: 1.5em;
+}
+
+.fz-2 {
+    font-size: 2em;
+}
+
+.fz-3 {
+    font-size: 3em;
+}
+
+.fz-4 {
+    font-size: 4em;
+}
+
+.text-upercase {
+    text-transform: uppercase;
 }
