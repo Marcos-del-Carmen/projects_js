@@ -1,0 +1,41 @@
+body {
+    background: #333;
+}
+
+a {
+    color: #fff;
+}
+
+.list {
+    margin: 10px;
+}
+
+.btn {
+    background: #333;
+}
+
+.item-list {
+    width: 95%;
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    background: #333;
+}
+
+.item-list a {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#nav-options {
+    display: none;
+    transition: .8s all ease-in-out;
+}
+
+.nav-logo img {
+    width: 60px;
+}
+
+#nav-options.visible {
+    display: block;
+}

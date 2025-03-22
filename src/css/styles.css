@@ -95,3 +95,31 @@
 .text-upercase {
     text-transform: uppercase;
 }
+
+/* ESTILOS USANDO FLEX */
+
+.df {
+    display: flex;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.content-space-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* LISTAS UL */
+li { 
+    list-style: none;
+}
+
+/* ANCLA */
+a {
+    text-decoration: none;
+}
