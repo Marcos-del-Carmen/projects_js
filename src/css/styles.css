@@ -2,6 +2,19 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --c1: #260d33;
+    --c2: #106b87;
+    --c3: #106b87;
+    --c4: #157a8c;
+    --c5: #b3aca4;
+}
+
+body {
+    background: #333;
 }
 
 .btn {
@@ -114,6 +127,10 @@
     align-items: center;
 }
 
+.gap-10 {
+    gap: 10;
+}
+
 /* LISTAS UL */
 li { 
     list-style: none;
@@ -122,4 +139,52 @@ li {
 /* ANCLA */
 a {
     text-decoration: none;
+}
+
+/* PALETA DE COLORES */
+
+/* FONDOS */
+.bg-c1 {
+    background: var(--c1);
+}
+
+.bg-c2 {
+    background: var(--c2);
+}
+
+.bg-c3 {
+    background: var(--c3);
+}
+
+.bg-c4 {
+    background: var(--c4);
+}
+
+.bg-c5 {
+    background: var(--c5);
+}
+
+/* COLORES */
+.color-c1 {
+    color: var(--c1);
+}
+
+.color-c2 {
+    color: var(--c2);
+}
+
+.color-c3 {
+    color: var(--c3);
+}
+
+.color-c4 {
+    color: var(--c4);
+}
+
+.color-c5 {
+    color: var(--c5);
+}
+
+.c-while {
+    color: #fff;
 }
