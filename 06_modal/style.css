@@ -1,0 +1,51 @@
+.fondo {
+    background-image: url(../src/img/fondo/proceso.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.content {
+    width: 60%;
+    height: 35vh;
+}
+
+.modal-content {
+    width: 70%;
+}
+
+img {
+    width: 25px;
+}
+
+.btn {
+    padding: 5px;
+}
+
+.font-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.4s ease, visibility 0.4s ease;
+    transform: translateY(100%);
+}
+
+.visible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    visibility: visible;
+    transform: translateY(0%);
+}
+
+.oculto {
+    visibility: hidden;
+    transform: translateY(-100%);
+}
+

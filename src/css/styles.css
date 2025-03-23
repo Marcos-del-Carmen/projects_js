@@ -7,14 +7,11 @@
 
 :root {
     --c1: #260d33;
+    --c1-opacity: #4b1b65;
     --c2: #106b87;
     --c3: #106b87;
     --c4: #157a8c;
     --c5: #b3aca4;
-}
-
-body {
-    background: #333;
 }
 
 .btn {
@@ -26,14 +23,14 @@ body {
 
 .btn-primary {
     color: #fff;
-    background: #036D59;
+    background: var(--c1);
 }
 
 .btn-primary:hover,
 .btn-primary:checked,
 .btn-primary:active {
-    color: #c7c7c7;
-    background: #005243;
+    color: #d4d4d4;
+    background: var(--c1-opacity);
 }
 
 .btn-secundary {
@@ -127,6 +124,21 @@ body {
     align-items: center;
 }
 
+.f-d-column {
+    flex-direction: column;
+}
+
+.f-d-row {
+    flex-direction: row;
+}
+
+.justify-elements-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .gap-10 {
     gap: 10;
 }
@@ -188,3 +200,54 @@ a {
 .c-while {
     color: #fff;
 }
+
+.c-grey {
+    color: #333;
+}
+
+.bg-while {
+    background: #fff;
+}
+
+.bg-grey {
+    background: #333;
+}
+
+/* BORDES, MARGENES Y PADDIGNS*/
+.br-5 {
+    border-radius: 5px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.m-1 {
+    margin: 1em;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.ml-1 {
+    margin-left: 1em;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+/* TEXTOS */
+.text-center {
+    text-align: center;
+}
+
