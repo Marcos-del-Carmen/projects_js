@@ -15,6 +15,7 @@
     --c1: #260d33;
     --c1-opacity: #4b1b65;
     --c2: #106b87;
+    --c2-opacity: #1c91b4;
     --c3: #106b87;
     --c4: #157a8c;
     --c5: #b3aca4;
@@ -24,6 +25,7 @@
     padding: 10px;
     border: none;
     font-weight: 700;
+    border-radius: 10px;
     transition: all .2s;
 }
 
@@ -40,15 +42,15 @@
 }
 
 .btn-secundary {
-    color: #333;
-    background-color: #95FFEB;
+    color: #fff;
+    background-color: var(--c2);
 }
 
 .btn-secundary:hover,
 .btn-secundary:checked,
 .btn-secundary:active {
-    color: #747474;
-    background-color: #6fb6a9;
+    color: #d8d8d8;
+    background-color: var(--c2-opacity);
 }
 
 .btn-third {
@@ -88,26 +90,6 @@
     color: rgb(1, 102, 184);
 }
 
-.fz-1 {
-    font-size: 1em;
-}
-
-.fz-1-5 {
-    font-size: 1.5em;
-}
-
-.fz-2 {
-    font-size: 2em;
-}
-
-.fz-3 {
-    font-size: 3em;
-}
-
-.fz-4 {
-    font-size: 4em;
-}
-
 .text-upercase {
     text-transform: uppercase;
 }
@@ -144,9 +126,42 @@
     align-items: center;
     flex-direction: column;
 }
+/* ESTILOS USANDO GRID */
+
+.grid-columns-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+    gap: 20px;
+}
 
 .gap-10 {
     gap: 10;
+}
+/* MEDIDAS PARA ESPACIOS */
+
+.w-100 {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.w-90 {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.w-80 {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.w-70 {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.w-60 {
+    width: 60%;
+    margin: 0px auto;
 }
 
 /* LISTAS UL */
@@ -158,8 +173,6 @@ li {
 a {
     text-decoration: none;
 }
-
-/* PALETA DE COLORES */
 
 /* FONDOS */
 .bg-c1 {
@@ -185,6 +198,10 @@ a {
 /* COLORES */
 .color-c1 {
     color: var(--c1);
+}
+
+.color-c1-opacity {
+    color: var(--c1-opacity);
 }
 
 .color-c2 {
@@ -244,6 +261,14 @@ a {
     margin-top: 1em;
 }
 
+.mt-2 {
+    margin-top: 2em;
+}
+
+.mt-3 {
+    margin-top: 3em;
+}
+
 .mb-1 {
     margin-bottom: 1em;
 }
@@ -257,3 +282,38 @@ a {
     text-align: center;
 }
 
+.f-w-500 {
+    font-weight: 500;
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.f-w-700 {
+    font-weight: 700;
+}
+
+.f-w-800 {
+    font-weight: 800;
+}
+
+.f-size-1 {
+    font-size: 1em;
+}
+
+.f-size-1-5 {
+    font-size: 1.5em;
+}
+
+.f-size-2 {
+    font-size: 2em;
+}
+
+.f-size-3 {
+    font-size: 3em;
+}
+
+.f-size-4 {
+    font-size: 4em;
+}

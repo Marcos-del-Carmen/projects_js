@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de restaurante</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="justify-elements-center items-center mt-2">
+        <h1 class="color-c2 f-size-4 font-maguntia">Our Menu</h1>
+        <br>
+        <div class="tags">
+            <button class="btn btn-secundary" id="btn_all"      data-category="all">All</button>
+            <button class="btn btn-secundary" id="btn_break"    data-category="Breakfast">Breakfast</button>
+            <button class="btn btn-secundary" id="btn_lunch"    data-category="Lunch">Lunch</button>
+            <button class="btn btn-secundary" id="btn_shakes"   data-category="Drink">Shakes</button>
+            <button class="btn btn-secundary" id="btn_dinner"   data-category="Dinner">Dinner</button>
+
+        </div>
+    </main>
+    <article class="w-90 mt-2 grid-columns-2" id="item_saucers">
+    </article>
+    <script src="restaurant_menu.js"></script>
+</body>
+</html>
