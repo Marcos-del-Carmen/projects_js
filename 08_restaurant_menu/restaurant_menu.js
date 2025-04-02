@@ -118,15 +118,8 @@ function mostraMenu(cate) {
 
 mostraMenu('all');
 
-// console.log(document.querySelectorAll('[data-category]'));
-
 document.querySelectorAll('[data-category]').forEach(btn => {
-
     btn.addEventListener('click', () => {
-        // contMenu.classList.add('desvanecer');
-        // setTimeout(() => {
-        //     contMenu.classList.remove('desvanecer');
-        // }, 4000);
         mostraMenu(btn.dataset.category);
     });
 });

@@ -1,36 +1,10 @@
 body {
-    background: var(--c5);
+  background: var(--c5);
 }
-
 
 img {
-    width: 250px;
-    height: 180px;
-    object-fit: cover;
-    border: 5px solid  var(--c2);
-}
-
-/* #item_saucers {
-    opacity: 1;
-    transition: opacity 1s ease; 
-} */
-/* 
-.desvanecer {
-   opacity: 0;
-} */
-
-@keyframes desvanecer {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-}
-
-.desvanecer {
-    animation: desvanecer 3s ease;
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid  var(--c2);
 }
