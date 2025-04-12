@@ -75,4 +75,9 @@ class ProjectManeger {
     getByProjectName() {
         return this.projects.filter(p => p == p.name);
     }
+
+    // hacer un metodo que ordene por fechas del más nuevo
+    getProjectsOrder() {
+        return this.projects.sort();
+    }
 }
