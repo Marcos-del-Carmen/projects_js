@@ -86,7 +86,7 @@ function mostraMenu(cate) {
 
     menu.forEach((item, i) => {
         let item_menu = document.createElement('div');
-        item_menu.classList.add('cont-menu', 'df');
+        item_menu.classList.add('cont-menu', 'd-flex');
     
         let imgDiv = document.createElement('div');
         let imagen = document.createElement('img');
@@ -98,7 +98,7 @@ function mostraMenu(cate) {
     
         let content_body = document.createElement('div');
         content_body.innerHTML = `
-            <div class="df content-space-between">
+            <div class="d-flex content-space-between">
                 <h4 class="color-c2">${item.nombre}</h4>
                 <p class="f-w-800 color-c2">$ ${item.precio}</p>
             </div>

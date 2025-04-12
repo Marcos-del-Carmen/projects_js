@@ -94,21 +94,27 @@
     text-transform: uppercase;
 }
 
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /* ESTILOS USANDO FLEX */
 
-.df {
+.d-flex {
     display: flex;
 }
 
-.content-center {
+.justify-content-center {
     justify-content: center;
 }
 
-.content-space-between {
+.justify-content-between {
     justify-content: space-between;
 }
 
-.items-center {
+.align-items-center {
     align-items: center;
 }
 
@@ -131,6 +137,12 @@
 .grid-columns-2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+    gap: 20px;
+}
+
+.grid-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     gap: 20px;
 }
 
@@ -273,8 +285,20 @@ a {
     margin-bottom: 1em;
 }
 
-.br-5 {
-    border-radius: 5px;
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+.mb-3 {
+    margin-bottom: 3em;
+}
+
+.p-1 {
+    padding: 1em;
+}
+
+.border-1px {
+    border: 1px solid var(--c2-opacity);
 }
 
 /* TEXTOS */
@@ -334,4 +358,23 @@ a {
 
 .h-100 {
     height: 100% !important;
+}
+
+.h-100vh {
+    height: 100vh !important;
+}
+
+.h-50vh {
+    height: 50vh !important;
+}
+
+.h-10vh {
+    height: 10vh !important;
+}
+
+/* IMAGENES */
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* que la imagen llene bien el espacio */
 }
