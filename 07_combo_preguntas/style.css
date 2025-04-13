@@ -1,0 +1,25 @@
+.content {
+    width: 80%;
+    height: 100vh;
+    margin: 0px auto;
+}
+
+.cont-question {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.oculto {
+    height: 0px;
+    visibility: hidden;
+}
+
+.visible {
+    height: 100px;
+    visibility: visible;
+}
+
+.cont-question {
+    background: #fff;
+    padding: 10px;
+}

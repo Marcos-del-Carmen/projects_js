@@ -1,0 +1,24 @@
+.card-container {
+    position: relative;
+    height: 40vh;
+}
+
+.image-container {
+    height: 50%; 
+}
+
+.image {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.cont-buttons {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+.banner {
+    width: 100%;
+    height: 20vh;
+}
