@@ -1,0 +1,9 @@
+.logo img {
+    width: 50px;
+}
+
+.home {
+    background: 
+      linear-gradient(rgba(0, 0, 0, 0.5), var(--c1-opacity)), url('../src/img/fondo/proceso.jpg') no-repeat center center/cover;
+    height: 100vh;
+}

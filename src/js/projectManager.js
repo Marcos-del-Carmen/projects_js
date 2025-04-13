@@ -65,6 +65,13 @@ class ProjectManeger {
                 description: 'Se puede pude pausar y reproducir el video el usuario.',
                 created: global.calculoDias('2025-04-05')
             },
+            {
+                name: 'Scroll entre secciones',
+                img: 'src/img/projects/scroll.png',
+                path: '10_scroll_project/index.html',
+                description: 'Se usa sscrollTo para ir a la sección que se desea.',
+                created: global.calculoDias('2025-04-12')
+            },
         ];
     }
 

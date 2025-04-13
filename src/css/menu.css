@@ -1,0 +1,8 @@
+.menu-buttons button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 10px;
+}
