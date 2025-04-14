@@ -12,8 +12,8 @@
 }
 
 :root {
-    --c1: #260d33;
-    --c1-opacity: #4b1b65;
+    --c1: #351247;
+    --c1-opacity: #591e79;
     --c2: #106b87;
     --c2-opacity: #1c91b4;
     --c3: #106b87;
@@ -72,8 +72,44 @@
     background-color: #50d1ba;
 }
 
+.taps-buttons {
+    display: flex;
+    width: 100%;
+    overflow: hidden; 
+    border-radius: 5px;
+}
+
+.taps-buttons>button {
+    flex: 1;
+    padding: 5px;
+    color: #535353;
+    border: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.taps-buttons>button:hover {
+    background: color-mix(in srgb, var(--c1) 20%, transparent);
+    color: #111;
+}
+
+.taps-buttons>button.active {
+    background: var(--c1);
+    color: #fff;
+    transition: all .8s;
+}
+
+.taps-buttons>button.active:hover {
+    background: var(--c1-opacity);
+    color: #fff;
+}
+
 .text-center {
     text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
 }
 
 .mr-1 {
@@ -116,8 +152,20 @@
     align-items: center;
 }
 
-.f-d-column {
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.flex-column {
     flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
 }
 
 .f-d-row {
@@ -134,7 +182,7 @@
 
 .grid-columns-2 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr)); 
     gap: 20px;
 }
 
@@ -246,9 +294,17 @@ a {
     background: #333;
 }
 
+.bg-low {
+    background: color-mix(in srgb, var(--c1) 20%, transparent);
+}
+
 /* BORDES, MARGENES Y PADDIGNS*/
 .br-5 {
     border-radius: 5px;
+}
+
+.br-b-5 {
+    border-radius: 0px 0px 10px 10px;
 }
 
 .br-10 {
@@ -293,6 +349,14 @@ a {
 
 .p-1 {
     padding: 1em;
+}
+
+.p-2 {
+    padding: 2em;
+}
+
+.p-3 {
+    padding: 3em;
 }
 
 .border-1px {
@@ -356,6 +420,10 @@ a {
 
 .w-100 {
     width: 100% !important;
+}
+
+.w-50 {
+    width: 50% !important;
 }
 
 .h-100 {
