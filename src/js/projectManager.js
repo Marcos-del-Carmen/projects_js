@@ -72,6 +72,13 @@ class ProjectManeger {
                 description: 'Se usa sscrollTo para ir a la sección que se desea.',
                 created: global.calculoDias('2025-04-12')
             },
+            {
+                name: 'Taps de información',
+                img: 'src/img/projects/taps.png',
+                path: '11_taps/index.html',
+                description: 'La información se muestra dependiendo de la opción que se selecciona.',
+                created: global.calculoDias('2025-04-14')
+            },
         ];
     }
 
@@ -84,7 +91,7 @@ class ProjectManeger {
     }
 
     // hacer un metodo que ordene por fechas del más nuevo
-    getProjectsOrder() {
-        return this.projects.sort();
+    getProjectsReverse() {
+        return this.projects.reverse();
     }
 }

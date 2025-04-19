@@ -3,7 +3,7 @@ let projectManeger = new ProjectManeger();
 
 let cont = document.getElementById('container');
 
-projectManeger.getProjects().forEach(pro => {
+projectManeger.getProjectsReverse().forEach(pro => {
     let card = document.createElement('div');
     card.classList.add('br-10', 'border-1px', 'card-container');
     card.innerHTML = `
