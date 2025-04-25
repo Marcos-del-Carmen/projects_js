@@ -198,6 +198,17 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
 }
+
+.grid-column-auto {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+}
+
 .gap-10 {
     gap: 10;
 }
@@ -376,6 +387,10 @@ a {
 /* TEXTOS */
 .text-center {
     text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
 }
 
 .f-w-500 {
