@@ -9,4 +9,8 @@ class Global {
     
         return diasRestantes === 0 ? 'Creado hoy': `Creado hace ${diasRestantes} días`;
     }
+
+    numRamdom(num) {
+        return Math.floor(Math.random() * num)
+    }
 }

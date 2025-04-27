@@ -303,6 +303,10 @@ a {
     color: #333;
 }
 
+.c-red {
+    color: red;
+}
+
 .bg-while {
     background: #fff;
 }
@@ -338,6 +342,10 @@ a {
 
 .ml-1 {
     margin-left: 1em;
+}
+
+.ml-2 {
+    margin-left: 2em;
 }
 
 .mt-1 {
