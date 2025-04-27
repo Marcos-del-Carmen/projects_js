@@ -79,6 +79,20 @@ class ProjectManeger {
                 description: 'La información se muestra dependiendo de la opción que se selecciona.',
                 created: global.calculoDias('2025-04-14')
             },
+            {
+                name: 'Cuenta regresiva',
+                img: 'src/img/projects/cuenta_regresiva.png',
+                path: '12_cuenta_regresiva/index.html',
+                description: 'Cuenta regresiva para sitio web, podría ser muy util para lanzamientos',
+                created: global.calculoDias('2025-04-24')
+            },
+            {
+                name: 'Lorem input',
+                img: 'src/img/projects/lorem.png',
+                path: '13_lorem_ipsum/index.html',
+                description: 'Se muestran lorem ipsum dependiento al rango releccionado.',
+                created: global.calculoDias('2025-04-26')
+            },
         ];
     }
 
