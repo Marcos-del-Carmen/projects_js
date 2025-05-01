@@ -19,6 +19,8 @@
     --c3: #106b87;
     --c4: #157a8c;
     --c5: #b3aca4;
+    --yellow:  rgb(218, 218, 77);
+    --yellow-plus:  rgb(161, 161, 61);
 }
 
 .btn {
@@ -304,7 +306,11 @@ a {
 }
 
 .c-red {
-    color: red;
+    color: tomato;
+}
+
+.c-yellow {
+    color: var(--yellow);
 }
 
 .bg-while {
@@ -452,6 +458,7 @@ a {
 }
 
 .w-50 {
+    margin: 0px auto;
     width: 50% !important;
 }
 

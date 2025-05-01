@@ -1,0 +1,8 @@
+.alert-warning {
+    border: 1px solid var(--c2-opacity);
+    border-radius: 5px;
+    background-color: var(--c2);
+    color: white;
+    font-weight: 800;
+    padding: 5px;
+}

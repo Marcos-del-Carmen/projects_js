@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/inputs.css">
+    <link rel="stylesheet" href="../src/css/alert.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4462bb3a8d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="w-60 justify-elements-center">
+        <h1 class="font-maguntia f-size-3 text-center">Grocery Bud</h1>
+        <div class="cont_input w-80">
+            <input type="text" id="list" placeholder="Add a product for list..." class="input_text" style="width: 79%;">
+            <button class="btn btn-secundary" style="width: 19%;" id="btn_add">Add</button>
+        </div>
+        <div class="cont_body w-80 mt-2">
+            <div class="cont_list" id="cont_list"></div>
+            <button class="btn btn-primary w-100 mt-2" id="btn_clear">Clear items</button>
+        </div>
+    </div>    
+    <script src="lista_mercado.js"></script>
+</body>
+</html>
