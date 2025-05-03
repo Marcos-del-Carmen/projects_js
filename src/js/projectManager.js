@@ -92,12 +92,20 @@ class ProjectManeger {
                 path: '13_lorem_ipsum/index.html',
                 description: 'Se muestran lorem ipsum dependiento al rango releccionado.',
                 created: global.calculoDias('2025-04-26')
-            },            {
+            },
+            {
                 name: 'Crud de lista de mercado',
                 img: 'src/img/projects/crud.png',
-                path: '13_lorem_ipsum/index.html',
+                path: '14_lista_mercado/index.html',
                 description: 'Agrea, edita, elimina y limpa todos los articulos.',
                 created: global.calculoDias('2025-05-01')
+            },
+            {
+                name: 'Slide de imagenes',
+                img: 'src/img/projects/p_15_slide.png',
+                path: '15_slide_imagenes/index.html',
+                description: 'Muestra las imagenes cada que precionas el botón.',
+                created: global.calculoDias('2025-05-03')
             },
         ];
     }

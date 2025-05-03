@@ -23,6 +23,12 @@
     --yellow-plus:  rgb(161, 161, 61);
 }
 
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .btn {
     padding: 10px;
     border: none;
